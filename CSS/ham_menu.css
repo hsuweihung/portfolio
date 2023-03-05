@@ -252,24 +252,6 @@ header.stick {
         text-decoration: none;
     }
 
-
-    .listMenu li:last-child a {
-        background: none;
-        border: 2px solid #333333;
-        border-radius: 3px;
-        color: #333333;
-        letter-spacing: -.001em;
-        padding: 5px 20px;
-        vertical-align: middle;
-    }
-
-    .listMenu li:last-child a:hover {
-        background: #8c8c8c;
-        border: 2px solid #8c8c8c;
-        color: #fff;
-        text-decoration: none;
-    }
-
     .mobileButton {
         display: none;
     }
