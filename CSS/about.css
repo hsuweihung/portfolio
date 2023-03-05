@@ -1,0 +1,199 @@
+.left_part p {
+    color: #868686;
+}
+
+.right_part p {
+    color: #868686;
+}
+
+.company_intro {
+    color: #868686;
+}
+
+.achievement {
+    color: #868686;
+}
+
+.cnotainer {
+    margin-top: 240px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width:1024px) {
+    .cnotainer {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 160px;
+    }
+}
+
+.intro_me {
+    max-width: 646px;
+}
+
+
+.left_part {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_part h3 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.left_part p {
+    line-height: 22px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.left_part img {
+    max-width: 171px;
+    max-height: 212px;
+    margin-left: 104px;
+}
+
+
+
+@media (max-width:920px) {
+    .left_part img {
+        margin-left: 0px;
+        margin-top: 16px;
+    }
+}
+
+.right_part {
+    margin-top: 120px;
+    max-width: 908.72px;
+}
+
+.right_part h3 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.right_part p {
+    line-height: 22px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.inrto_career {
+    max-width: 00px;
+}
+
+.border {
+    border: 1px solid#e0e0e0;
+    width: 226px;
+    margin-top: 64px;
+}
+
+.intro_experience {
+    width: 100%;
+    max-width: 908.72px;
+}
+
+.intro_experience h3 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 24px;
+    margin-top: 64px;
+}
+
+.intro_experience h4 {
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: sans-serif;
+}
+
+.intro_experience p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: sans-serif;
+}
+
+.date {
+    font-size: 12px;
+    color: #939393;
+}
+
+.company_intro {
+    margin-top: 8px;
+    font-size: 12px;
+}
+
+.title {
+    margin-top: 32px;
+}
+
+.second_school {
+    margin-top: 32px;
+}
+
+.major {
+    margin-bottom: 8px;
+}
+
+.achievement {
+    line-height: 24px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.bold {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    color: #000;
+}
+
+@media (max-width:728px) {
+    .intro_experience h4 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:768px) {
+    h3 {
+        font-size: 16px;
+    }
+
+    .right_part p {
+        font-size: 14px;
+    }
+
+    .left_part p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:768px) {
+    .intro_experience p {
+        font-size: 14px;
+    }
+
+    .bold {
+        font-size: 14px;
+    }
+
+    .achievement {
+        margin-bottom: 120px;
+    }
+}
