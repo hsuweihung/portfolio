@@ -272,3 +272,7 @@ header.stick {
 .close_btn p:hover {
     color: #585858;
 }
+
+.now a {
+    border-bottom: 1px solid #8c8c8c;
+}
