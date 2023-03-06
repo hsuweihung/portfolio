@@ -45,9 +45,10 @@
 
 .left_part h3 {
     font-family: sans-serif;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 24px;
     margin-bottom: 24px;
+    color: #072684;
 }
 
 .left_part p {
@@ -79,8 +80,9 @@
 
 .right_part h3 {
     font-family: sans-serif;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 24px;
+    color: #072684;
     margin-bottom: 24px;
 }
 
@@ -116,10 +118,11 @@
 
 .intro_experience h3 {
     font-family: sans-serif;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 24px;
     margin-bottom: 24px;
     margin-top: 64px;
+    color: #072684;
 }
 
 .intro_experience h4 {

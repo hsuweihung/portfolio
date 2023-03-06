@@ -8,17 +8,19 @@
 
 .container h2 {
     margin-bottom: 10px;
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 56px;
+    font-weight: 900;
     font-family: sans-serif;
+    color: #072684;
 }
 
 .container h3 {
     margin-top: 30px;
     margin-bottom: 20px;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 20px;
     font-family: sans-serif;
+    color: #000;
 }
 
 .text_title {
@@ -56,7 +58,7 @@
     margin-top: 16px;
     border-radius: 5px;
     font-size: 14px;
-    border: 1px solid #2e2e2e;
+    border: 2px solid #072684;
     box-shadow: 0 2px 44px 0 rgb(0 0 0 / 14%);
     padding-top: 16px;
     padding-bottom: 16px;
@@ -64,7 +66,7 @@
     padding-left: 24px;
     text-decoration: none;
     font-weight: 700;
-    color: #000;
+    color: #072684;
     font-family: Helvetica;
 }
 
@@ -79,22 +81,11 @@
 }
 
 .cta:hover {
-    background-color: #383838;
-    border: 1px solid #2e2e2e;
+    background-color: #072684;
     box-shadow: 0 2px 44px 0 rgb(0 0 0 / 14%);
     font-weight: 700;
-    border: 1px solid #868686;
+    border: 1px solid #072684;
     color: #fff;
-    transition: all 250ms cubic-bezier(.02, .01, .47, 1)
-}
-
-.cta_2:hover {
-    background-color: #fff;
-    border: 1px solid #2e2e2e;
-    box-shadow: 0 2px 44px 0 rgb(0 0 0 / 14%);
-    font-weight: 700;
-    border: 1px solid #2e2e2e;
-    color: #000;
     transition: all 250ms cubic-bezier(.02, .01, .47, 1)
 }
 
@@ -150,9 +141,10 @@
 
 .title {
     font-size: 28px;
-    font-weight: bold;
+    font-weight: 900;
     margin-bottom: 16px;
     line-height: 32px;
+    color: #072684;
     font-family: sans-serif;
 }
 
