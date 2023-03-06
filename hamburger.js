@@ -16,6 +16,7 @@ $overlay.add($menu).on("scroll touchmove mousewheel", function (event) {
 $("#mobileButton").click(function (event) {
     event.preventDefault();
     $overlay.show().animate({ opacity: 0.8 }, 200);
+    $close_btn.show().animate({ opacity: 0.8 }, 200);
     $menu.toggleClass("slideOut");
 });
 
