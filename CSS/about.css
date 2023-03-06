@@ -52,7 +52,7 @@
 
 .left_part p {
     line-height: 22px;
-    font-family: sans-serif;
+    font-family: Helvetica;
     font-weight: 400;
     font-size: 16px;
 }
@@ -86,13 +86,21 @@
 
 .right_part p {
     line-height: 22px;
-    font-family: sans-serif;
+    font-family: Helvetica;
     font-weight: 400;
     font-size: 16px;
 }
 
 .inrto_career {
     max-width: 00px;
+}
+
+.inrto_career h3 {
+    font-family: sans-serif;
+}
+
+.inrto_career p {
+    font-size: Helvetica;
 }
 
 .border {
@@ -126,10 +134,11 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    font-family: sans-serif;
+    font-family: Helvetica;
 }
 
 .date {
+    font-family: Helvetica;
     font-size: 12px;
     color: #939393;
 }
@@ -137,10 +146,12 @@
 .company_intro {
     margin-top: 8px;
     font-size: 12px;
+    font-family: sans-serif;
 }
 
 .title {
     margin-top: 32px;
+    font-family: sans-serif;
 }
 
 .second_school {
@@ -153,7 +164,7 @@
 
 .achievement {
     line-height: 24px;
-    font-family: sans-serif;
+    font-family: Helvetica;
     font-size: 16px;
 }
 
@@ -162,6 +173,7 @@
     font-size: 16px;
     line-height: 32px;
     color: #000;
+    font-family: sans-serif;
 }
 
 @media (max-width:728px) {
@@ -195,5 +207,20 @@
 
     .achievement {
         margin-bottom: 120px;
+    }
+}
+
+.img_life img {
+    width: 797px;
+    height: 572px;
+    margin-top: 80px;
+}
+
+@media (max-width:768px) {
+    .img_life img {
+        width: 365px;
+        height: 295px;
+        margin-top: -64px;
+        margin-bottom: 64px;
     }
 }

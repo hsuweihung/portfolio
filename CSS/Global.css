@@ -92,13 +92,15 @@
     }
 }
 
-.cta_2 {
+.cta_3 {
     margin-bottom: 24px;
+    font-family: Helvetica;
 }
 
 .footer_bottom {
     margin-top: 40px;
     font-size: 14px;
+    font-family: Helvetica;
 }
 
 .footer_top {
@@ -112,4 +114,10 @@
     .footer_top a {
         font-size: 16px;
     }
+}
+
+.linkedin_img {
+    height: 30px;
+    width: 30px;
+    margin-top: 16px;
 }
