@@ -10,7 +10,7 @@
     cursor: pointer;
     padding: 15px;
     border-radius: 10px;
-    font-size: 12px;
+    font-size: 16px;
     background-color: #072684;
     font-weight: 700;
     font-family: Helvetica;
@@ -21,10 +21,4 @@
     color: #072684;
     border: 2px solid #072684;
     transition: all 250ms cubic-bezier(.02, .01, .47, 1);
-}
-
-@media (max-width:768px) {
-    #myBtn {
-        font-size: 12px;
-    }
 }
