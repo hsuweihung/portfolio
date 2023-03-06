@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .nav_bar {
     display: flex;
     justify-content: space-evenly;
