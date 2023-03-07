@@ -13,18 +13,6 @@
 }
 
 .btt {
-    width: 15px;
-    height: 15px;
-}
-
-#myBtn:active {
-    background-color: #072684;
-    border: 1px solid #072684;
-    transition: all 250ms cubic-bezier(.02, .01, .47, 1);
-}
-
-#myBtn:hover {
-    background-color: #5b79d5;
-    border: 1px solid #5b79d5;
-    transition: all 250ms cubic-bezier(.02, .01, .47, 1);
+    max-width: 15px;
+    max-height: 15px;
 }
