@@ -1,9 +1,9 @@
 .left_part p {
-    color: #868686;
+    color: #606060;
 }
 
 .right_part p {
-    color: #868686;
+    color: #606060;
 }
 
 .company_intro {
@@ -54,7 +54,7 @@
 .left_part p {
     line-height: 22px;
     font-family: Helvetica;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 16px;
 }
 
@@ -89,7 +89,7 @@
 .right_part p {
     line-height: 22px;
     font-family: Helvetica;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 16px;
 }
 
@@ -131,10 +131,11 @@
     font-size: 20px;
     line-height: 24px;
     font-family: sans-serif;
+    color: #555555;
 }
 
 .intro_experience p {
-    font-weight: 400;
+    font-weight: 300;
     font-size: 16px;
     line-height: 19px;
     font-family: Helvetica;
@@ -175,7 +176,7 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 32px;
-    color: #000;
+    color: #555555;
     font-family: sans-serif;
 }
 

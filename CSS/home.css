@@ -18,7 +18,7 @@
 .container h3 {
     margin-top: 30px;
     margin-bottom: 20px;
-    font-weight: 900;
+    font-weight: 400;
     font-size: 20px;
     font-family: sans-serif;
     color: #000;
@@ -31,6 +31,7 @@
     max-width: 600px;
     line-height: 24px;
     font-family: Helvetica;
+    font-weight: 300;
 }
 
 @media (max-width:960px) {
@@ -138,6 +139,7 @@
     justify-content: center;
     align-items: flex-start;
     max-width: 400px;
+    line-height: 20px;
 }
 
 .title {
@@ -200,8 +202,7 @@
     .project_content {
         margin-top: 30px;
         max-width: 400px;
-        align-items: center;
-        text-align: center;
+        align-items: left;
     }
 
     .project_image,
@@ -243,18 +244,18 @@
     margin-top: 24px;
     text-decoration: none;
     color: #000;
-    /*border-bottom: 1px solid #000;*/
+    border-bottom: 1px solid #000;
     font-size: 14px;
     margin-bottom: 56px;
     font-family: Helvetica;
 }
 
-/*.detail:hover {
+.detail:hover {
     text-decoration: none;
     border-bottom: 1px solid #545454;
     color: #545454;
     transition: all 250ms cubic-bezier(.02, .01, .47, 1);
-}*/
+}
 
 .upcoming {
     color: #2e2e2e;
