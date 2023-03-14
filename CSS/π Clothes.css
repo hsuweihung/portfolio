@@ -90,7 +90,7 @@ p {
 @media (max-width:768px) {
     .banner img {
         max-height: 158px;
-        max-width: 341px;
+        max-width: 300px;
     }
 }
 
@@ -267,8 +267,8 @@ p {
     }
 
     .design_process img {
-        width: 450px;
-        max-height: 116px;
+        width: 350px;
+        height: 116px;
         margin-top: 48px;
         padding-bottom: 24px;
         margin-left: 5%;
@@ -321,6 +321,12 @@ p {
     .project_switch {
         margin-top: 160px;
         margin-bottom: 80px;
+
+    }
+
+    .project_switch img {
+        max-width: 100px;
+        max-height: 25px;
 
     }
 }
