@@ -329,8 +329,8 @@ p {
     }
 
     .project_switch img {
-        max-width: 100px;
-        max-height: 25px;
+        max-width: 150px;
+        max-height: 50px;
 
     }
 }
