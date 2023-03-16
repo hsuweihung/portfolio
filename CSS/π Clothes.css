@@ -308,29 +308,3 @@ p {
     width: 100%;
     margin-top: 16px;
 }
-
-.project_switch {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 160px;
-}
-
-.project_switch img {
-    max-width: 150px;
-    max-height: 33.01px;
-}
-
-@media (max-width:768px) {
-    .project_switch {
-        margin-top: 160px;
-        margin-bottom: 80px;
-
-    }
-
-    .project_switch img {
-        max-width: 150px;
-        max-height: 50px;
-
-    }
-}
