@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8754TWSEBE"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-8754TWSEBE');
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WilliamHsu Portfolio</title>
+    <link rel="stylesheet" href="./CSS/Global.css">
+    <link rel="stylesheet" href="./CSS/css_reset.css">
+    <link rel="stylesheet" href="./CSS/ham_menu.css">
+    <link rel="stylesheet" href="./CSS/back_to_top.css">
+    <link rel="stylesheet" href="./CSS/π Clothes.css">
+    <link rel="stylesheet" href="./CSS/NYCU_website.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img class="btt" src="./image/up-arrow.png"></button>
+    <header>
+        <div class="wrap-container clearfix header">
+            <div class="branding">
+                <a href="./index.html"><img src="./image/me.png" class="logo-lg" alt="logo" title="logo" /></a>
+            </div>
+            <div class="menu">
+                <a id="mobileButton" class="mobileMenuButton"><span></span></a>
+                <ul class="listMenu">
+                    <li class="nav_item"><a href="./index.html" style="color: #8c8c8c;">Project</a></li>
+                    <li class="nav_item"><a href="./about.html">About</a>
+                    </li>
+                    <li class="nav_item"><a href="./williamHsu_resume.pdf" target="_blank">Resume</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <img class="banner_tree" src="./image/一樹百穫/Banner.png" alt="">
+    <div class="body">
+        <div class="mobileMenu slideOut">
+            <button class="close_btn">
+                <a class="mobileMenuButton"><span></span></a>
+            </button>
+        </div>
+        <div class="overview">
+            <div class="title">
+                <h4>Timeline</h4>
+                <h4>Team</h4>
+                <h4>My Role</h4>
+                <h4>Outcome</h4>
+            </div>
+            <div class="content">
+                <p>Mar. 2022 - Jul. 2022 (5 months)</p>
+                <p>2 Project Manager, 2 UX Designer, 1 UI Designer, 1 Visual Designer, 1 Front-end Engineer, 3
+                    Copywriter</p>
+                <p>Project Management, UX Design (Information Architecture, Wireframe, Mockup Review), Testing</p>
+                <p>RWD Website (網站已製作完成，由於學校尚處整合階段且文案陸續更新中，因此預計今年年底上線)</p>
+            </div>
+        </div>
+        <div class="overview_mb">
+            <div class="content_mb">
+                <h4>Timeline</h4>
+                <p>Mar. 2022 - Jul. 2022 (5 months)</p>
+            </div>
+            <div class="content_mb">
+                <h4>Team</h4>
+                <p>2 Project Manager, 2 UX Designer, 1 UI Designer, 1 Visual Designer, 1 Front-end Engineer, 3
+                    Copywriter</p>
+            </div>
+            <div class="content_mb">
+                <h4>My Role</h4>
+                <p>Project Management, UX Design (Information Architecture, Wireframe, Mockup Review), Testing</p>
+            </div>
+            <div class="content_mb">
+                <h4>Outcome</h4>
+                <p>RWD Website (網站已製作完成，由於學校尚處整合階段且文案陸續更新中，因此預計今年年底上線)</p>
+            </div>
+        </div>
+        <div class="intro_area">
+            <h3 class="intro_title">Summary</h3>
+            <p>國立陽明交通大學一樹百穫計畫為校長所提出，目的是為了對外介紹學校未來規劃、重要研究方向及研究成果，而一樹百穫網站則為乘載這些內容的資訊性平台，並於 2021 年
+                7 月上線第一版。由於第一版建置過程過於急促，再收到一些校友對於網站的回饋後，為了提供給業界人士及校友有良好的瀏覽體驗，學校由 2022 年委託傳播與外展組負責進行第二版網站的規劃與設計。</p>
+        </div>
+        <div class="intro_area">
+            <h3 class="intro_title">Target Audience</h3>
+            <p><span style="font-weight: 800;">Primary User:</span><br>
+                業界校友，年齡層約 40 歲以上<br>
+                關鍵行為：透過網站了解學校未來發展重要研究方向，以增加其和學校合作的意願
+            </p><br>
+            <p><span style="font-weight: 800;">Secondary User:</span><br>
+                在校生 / 想來就讀的家長與學生<br>
+                關鍵行為：想了解學校未來發展與重要研究方向，以增加學校在留才的競爭力
+            </p>
+        </div>
+        <div class="intro_area">
+            <h3 class="intro_title">Problem Statement</h3>
+            <p>團隊根據第一版網站找尋 4 位目標用戶進行易用性測試，並發現第一版網站存在著以下 3 面向的問題：
+                <br><br>
+                <span style="font-weight: 800;">1.資訊架構複雜，查找資訊步驟冗長：</span><br>
+                - 分類標題不直觀，使用者無法確定自己要找的資訊在哪個分類<br>
+                - 與學校研究領域相關的資訊，使用者普遍認爲是相對重要的資訊，卻需要進行好幾個步驟的點選，才能找到<br><br>
+                <span style="font-weight: 800;">2.網站互動形式不符合使用者習慣：</span><br>
+                - 跟一般的資訊型網站差異很大，造成使用習慣上的落差，需要重新學習，但在熟悉過程中，操作又不符合預期<br><br>
+                <span style="font-weight: 800;">3.文案呈現方式降低瀏覽動機：</span><br>
+                - 與學校研究領域相關的資訊，需要額外下載檔案
+                - 文案內容感覺沒有整理過，篇幅很冗長
+            </p>
+        </div>
+        <div class="intro_area">
+            <h3 class="intro_title">Goal</h3>
+            <p>團隊總目標為提升一樹百穫網站的瀏覽體驗及流量，其中包含：<br><br>
+                - 重整網站的資訊架構，以讓用戶更有效率的找到目標資訊<br>
+                - 互動形式盡量與一般的資訊型網站一致，減少用戶再學習的成本<br>
+                - 提升網站內容的資訊豐富性及易讀性
+            </p>
+        </div>
+        <div class="intro_area">
+            <h3 class="intro_title">My Contribution</h3>
+            <img class="contribute" src="./image/一樹百穫/MyContribution.png" alt="">
+        </div>
+        <div class="intro_area">
+            <h3 class="intro_title">Challenge</h3>
+            <p>本專案主要遇到 3 大面向的開發挑戰：<br><br>
+                - 文案轉移：校方希望現階段不要改動第一版中的所有文案。<br>
+                - 文案撰寫：每個實驗室繳交的資料豐富度差異甚大，因此在文案撰寫上，也難以控制內容的品質一致性。<br>
+                - 成本控管：網站資料量龐大，如何在在預算內將網站資料清楚呈現，是一大課題。<br>
+            </p>
+        </div>
+        <div class="intro_area">
+            <h3 class="intro_title">Some Outcome Example</h3>
+            <div class="seperate_intro"></div>
+            <div>
+                <h4 class="outcome_title"># Landing Page</h4>
+            </div>
+            <div class="tree_outcome">
+                <img src="./image/一樹百穫/landing_page.png" alt="">
+                <div>
+                    <div style="margin-top: 48px;">
+                        <h4 class="design_title">Strategy 1: 首頁擁有更豐富、多元的資訊，以發揮宣傳的效益</h4>
+                        <p>希望將 Landing Page 宣傳的效益發揮最大化，因此將學校較為重要，目標用戶較想要了解的資訊組成 Landing
+                            Page，以取代上一版只有類似 Gallery UI Component
+                            的
+                            Landing Page。</p>
+                    </div>
+                    <div style="margin-top: 56px;">
+                        <h4 class="design_title">Strategy 2: 提供更有效率的資訊瀏覽方式</h4>
+                        <p>提供兩種資訊搜尋方式，第 1 種為全站搜尋，目的是針對 ‘’已經有特定目標資訊的使用者“ ，讓他們不用再經過多次查找，直接透過關鍵字搜尋即可獲得目標資訊。第 2
+                            種則是首頁放入重要研究方向
+                            (即重點實驗室)，由於業界多半都是直接與實驗室進行合作，因此多半都會想更深入了解各實驗室的狀況。於 Landing Page 放入重要研究領域，除了發揮宣傳作用外，也可以為
+                            “沒有特定目標資訊，四處瀏覽的使用者” 提供更快速的獲得重要資訊。</p>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 96px;">
+                <h4 class="outcome_title title_2"># Research Intro Page</h4>
+            </div>
+            <div class="tree_outcome">
+                <img src="./image/一樹百穫/Research_intro.png" alt="">
+                <div>
+                    <div style="margin-top: 48px;">
+                        <h4 class="design_title">Strategy 1: 資訊分類</h4>
+                        <p>將學校 14 個重要研究方向根據性質加以分類，共拆分為 2 個領域，讓資訊查找上更為清楚。</p>
+                    </div>
+                    <div style="margin-top: 56px;">
+                        <img class="tree_outcome" src="./image/一樹百穫/research_detail_page.png" alt=""
+                            style="margin-bottom: 48px;">
+                        <h4 class="design_title">Strategy 2: 加入研究方向詳細介紹頁</h4>
+                        <p>相較於原先要看每個研究方向的詳細介紹都需要將文件下載下來瀏覽，優化後的版本針對每個研究方向另外建立詳細介紹頁，且可以在詳細介紹頁中相互跳轉相同領域的內容。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="intro_area">
+                <h3 class="intro_title">Design</h3>
+                <div class="seperate_intro"></div>
+                <h4 style="margin-top: 56px;">Information Architecture: Card Sorting Workshop</h4>
+                <div class="outcome_area_a">
+                    <div class="tree_content IA_problem">
+                        <img src="./image/一樹百穫/IA_problem.png" alt="">
+                    </div>
+                    <div>
+                        <h5 style="line-height: 30px;" class="outcome IA_problem">Key Finding:</h5>
+                        <p>在第一版網站中，我們發現網站的分類標題命名無法有效、直觀地了解個標題內涵蓋哪方面的資訊。為了
+                            讓新版網站的標題命名能夠更好被理解，我決定盤
+                            點第一版網站內容後，進行內部的資訊架構設計工作坊。</p>
+                    </div>
+                </div>
+                <div class="workshop_content">
+                    <p style="margin-top: 48px;">因此，我邀請了計畫主持人、 Project Manager 、UX Designer 及 Copywriter
+                        參加資訊架構設計工作坊，將第一版網站的資訊架構再設計，組成新版的 Sitemap
+                        外，並與所有參與者共同決議出各分頁的標題命名。</p>
+                    <img class="workshop" src="./image/一樹百穫/IA_Workshop.png" alt="">
+                </div>
+                <h4 class="WF_title_2">Wireframe</h4>
+                <div class="outcome_area_a">
+                    <div class="WF_component">
+                        <img src="./image/一樹百穫/WF_component.png" alt="">
+                    </div>
+                    <div>
+                        <h5 style="line-height: 30px;" class="outcome WF_title">Wireframe Component:</h5>
+                        <p>由於資料量龐大，各頁面的資料豐富度也差異很大，但礙於成本考量，無法進行太多的客製化。因此我以“控制在預算內”、”元件效益最大化”
+                            兩個目標，先盤點了各頁面的文案內容，再製作出能夠適應最多資料狀況的元件，隨後才進行 Wireframe 的製作。</p>
+                    </div>
+                </div>
+                <div class="workshop_content">
+                    <p style="margin-top: 48px;">在 Wireframe 製作上，採取類似 Scrum 的開發流程，由於專案時程較急湊，依序根據 SiteMap
+                        由上往下分4個階段進行製作。各階段 Wireframe 製作完成後，便交付給 UI 設計師進行 Mockup 設計，待確認沒問題後，便交付給前端進行開發。</p>
+                    <div class="workshop_area">
+                        <img class="sprint" src="./image/一樹百穫/sprint.png" alt="">
+                        <img class="workshop" src="./image/一樹百穫/WF.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="intro_area">
+            <h3 class="intro_title">Iteration</h3>
+            <div class="seperate_intro"></div>
+            <h4 style="margin-top: 56px;">Heuristic Evaluation</h4>
+            <p style="margin-top: 24px;">為了讓網站擁有良好的易用性，我帶領 4 位團隊成員根據 Jakob Nielsen 所提出的 10
+                大設計準則透過高擬真原型進行啟發式評估。先將使用動機分成兩種進行，其一是上網站無目的性的四處逛逛，其二則是有想要深入了解研究方向並有意願與學校進行合作，並根據這兩種使用動機分別設計測試的起點與終點。共測試了
+                ios / Android / Mac / Windows 四種裝置及作業系統，瀏覽器主要為 Safari 及 Chorme。</p>
+            <img style="margin-top:48px" src="./image/一樹百穫/啟發式評估.png" alt="">
+            <h4 style="margin-top: 72px;">Usability Testing</h4>
+            <p style="margin-top:24px">根據啟發式評估的問題進行優化後，為了讓網站符合目標用戶的使用習慣及了解對於新版網站的想法，進行第二階段的測試，在第二階段測試中，招募了 4 位在校生及 4
+                位業界校友進行易用性測試。而根據測試結果，我將問題進行優先級排序，分別為：
+                <br><br>
+                - 高優先級別：嚴重影響網站操作易用性<br>
+                - 中優先級別：屬於文案或是 UI 元件擺放位置的相關問題<br>
+                - 低優先級別：不會影響網站易用性及易讀性，或是屬於文案問題但目前尚無相對應的資料<br>
+                <br><br>
+                並以高優先、中優先級別的問題進行首要優化目標。
+            </p>
+        </div>
+        <div class="intro_area">
+            <h3 class="intro_title">Layout</h3>
+            <div class="seperate_intro"></div>
+            <p>由於網站資料頁數較多，且尚未正式上線，礙於學校隱私，目前先以點電腦版的設計稿作為 Mockup 範例。若想瀏覽網站成果，歡迎聯絡我，我會在上線第一時間 mail 網站連結給您。</p>
+        </div>
+    </div>
+    <img class="mockup" src="./image/一樹百穫/layout.png" alt="">
+    <div class="body">
+        <div class="intro_area">
+            <h3 class="intro_title">Result</h3>
+            <div class="seperate_intro"></div>
+            <p>在執行易用性測試時，我們也針對新舊版網站進行比較，除了詢問受訪者對於新網站的評價外，亦透過量化指標來衡量新版網站。</p>
+            <h4 style="margin-top: 56px;">Qualitative Result (User Quote)</h4>
+            <p style="margin-top: 24px;">P03 : “ 架構分類有一致性，我可以很快速清楚的找到我要找的東西。類別不會太細，連不熟悉的我也可以分辨出來。”</p>
+            <p style="margin-top: 24px;">P04 : “ 新版的資訊充足，可以找到想要的，比原本的版本更令人想閱讀。”</p>
+            <p style="margin-top: 24px;">P06 : “ 比起舊版，好用很多，分類項目也較清楚。”</p>
+            <p style="margin-top: 24px;">P07 : “ 有更了解母校在做的事情，新的資訊豐富完整，串連滿好的，直接點擊很方便。”</p>
+            <h4 style="margin-top: 72px;">Quantitative Result</h4>
+            <p style="margin-top:24px">在量化資料上，分為 SUS 分數及對於網站滿意度兩個指標進行觀察。
+                <br><br>
+                <span style="font-weight: 800;"> -SUS (滿分 100)：</span> 測試分數達 75.4 (約PR 74)<br><br>
+                <span style="font-weight: 800;">-網站滿意度 (滿分 5 )：</span>4 分
+            </p>
+            <p style="margin-top:48px">總結質量化的結果，並回扣本專案的目標，新版網站達成了以下 3 點目標：
+                <br><br>
+                - 成功讓用戶能更有效率的找到目標資訊，受訪者普遍認為新版分類清楚，能夠更快速找到想找的資訊<br>
+                - 成功提升操作體驗，受訪者普遍認為更符合他們的操作習慣，且 SUS 測試分數達 75.4（約 PR 74）<br>
+                - 成功提升網站內容的資訊豐富性及易讀性，受訪者普遍認為比起第一版，新版資訊更為豐富，且更會讓人想閱讀內容
+            </p>
+        </div>
+        <div class="intro_area">
+            <h3 class="intro_title">Self-reflections</h3>
+            <div class="seperate_intro"></div>
+            <p>這是我第一次帶領團隊執行資料量如此龐大的網站開發專案，在這個專案中我除了負責帶領設計組完成設計交付外，也需要和 UI
+                設計師及前端工程師做密切的討論，而整個專案過程，讓我成長最大的有 2 個面向：
+                <br><br>
+                <span style="font-weight: 800;">1.
+                    先將需求過濾，可以讓團隊執行的更加順利：</span>由於專案利害關係人很多，因此在每次內部會議時，都會冒出許多新的想法。而如何在確保專案進度的同時，又能滿足利害關係人的需求，讓我養成了每次在內部會議時，都會先做需求過濾。第一步先以專案目標為出發點，進行需求的排序，以確保提出的需求不偏離當初專案的目標。也因為我有網站開發的經驗，因此下一步我會以技術可行性及前端的角度切入，說服利害關係人相關功能無法落地，或是開發難度過高，耽誤到專案進度，讓前端工程師不需要再花時間討論可行性，加快開發效率。<br><br>
+                <span style="font-weight: 800;">2,
+                    專案管理需要大量的良性溝通：</span>由於留給設計及開發的時程非常緊湊，因此該怎麼做好專案進度的規劃，是一項另我苦惱的事情。我先將所有需要繪製的頁面羅列出來，根據頁面區塊緊急及重要程度進行設計排序。每次開始繪製前，先和設計組其他兩位同伴進行頁面資料的審查，以更了解此頁面的資料豐富與複雜程度，並一起討論及評估困難程度及需要的工作日，最後再根據討論出的結果進行專案時程的定調。
+            </p>
+        </div>
+        <div class="intro_area">
+            <h3 class="intro_title">Next Step</h3>
+            <div class="seperate_intro"></div>
+            <p style="margin-bottom: -72px;">網站設計及開發的部分已經完成，目前正等待學校各處室提供最新的相關文案內容，待負責次項任務的行政專員彙整上架完畢，網站便能正式上線，預計年底前上線。
+            </p>
+            <div class="project_switch">
+                <a href="#"><img src="./image/一樹百穫/previous.png" alt=""></a>
+                <a href="./π Clothes.html"><img src="./image/一樹百穫/next.png" alt=""></a>
+            </div>
+        </div>
+
+        <footer class="footer_area">
+            <div class="footer_top">
+                <a class="cta_3" href="mailto:william19970923@gmail.com" target="_blank">Let's Collaborate !</a>
+                <a href="https://www.linkedin.com/in/williamhsuu/" target="_blank"><img src="./image/linkedin.png"
+                        class="linkedin_img" alt=""></a>
+            </div>
+            <div class="footer_bottom">
+                <p>design & coded by William Hsu 2023</p>
+            </div>
+        </footer>
+</body>
+<script src="./hamburger.js"></script>
+<script src="./back_to_top.js"></script>
+
+</html>
