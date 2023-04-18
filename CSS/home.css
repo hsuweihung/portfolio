@@ -260,6 +260,14 @@
     transition: all 250ms cubic-bezier(.02, .01, .47, 1);
 }
 
+.detail:active {
+    text-decoration: none;
+    background-color: #2e2e2e;
+    border: 1px solid #2e2e2e;
+    color: #fff;
+    transition: all 250ms cubic-bezier(.02, .01, .47, 1);
+}
+
 .upcoming {
     color: #2e2e2e;
 }
