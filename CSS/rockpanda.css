@@ -4,3 +4,36 @@
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+.demo_pdf_mobile {
+    display: none;
+}
+
+.mobile {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .demo_pdf_mobile {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    .demo_pdf {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .mobile_text {
+        display: block;
+        margin-top: 50px;
+        font-weight: 900;
+        color: #072684;
+        font-size: 14px;
+    }
+}
