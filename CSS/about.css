@@ -216,14 +216,14 @@
 
 .img_life img {
     width: 609.31px;
-    height: 523px;
+    height: 800px;
     margin-top: 80px;
 }
 
 @media (max-width:768px) {
     .img_life img {
         width: 330px;
-        height: 243px;
+        height: 500px;
         margin-top: -64px;
         margin-bottom: 64px;
     }
