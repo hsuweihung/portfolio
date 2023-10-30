@@ -271,3 +271,41 @@
 .upcoming {
     color: #2e2e2e;
 }
+
+.extra {
+    display: flex;
+    font-size: 36px;
+    font-weight: 900;
+    font-family: sans-serif;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #072684;
+    line-height: 64px;
+    margin-bottom: -50px;
+}
+
+.content {
+    margin-top: 100px;
+}
+
+
+@media (max-width:768px) {
+    .extra {
+        display: flex;
+        font-size: 30px;
+        font-weight: 900;
+        font-family: sans-serif;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        color: #072684;
+        line-height: 64px;
+        margin: auto, 0;
+    }
+
+    .content {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+}

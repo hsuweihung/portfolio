@@ -1,0 +1,13 @@
+.demo_pdf {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media (max-width:768px) {
+    .pdf_reader {
+        width: 800px;
+        height: 380px;
+    }
+}
