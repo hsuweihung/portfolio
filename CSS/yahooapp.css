@@ -278,8 +278,8 @@ p {
     }
 
     .design_process img {
-        width: 700px;
-        height: 130px;
+        width: 450px;
+        height: 100px;
         margin-top: 48px;
         padding-bottom: 24px;
         margin-left: 5%;
@@ -287,7 +287,7 @@ p {
     }
 
     .function {
-        max-width: 566px;
+        max-width: 380px;
         max-height: 670px;
     }
 }
