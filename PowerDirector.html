@@ -60,9 +60,7 @@
             <div class="content">
                 <p>Aug. 2025 - Sep. 2025</p>
                 <p>Product Management, Project Management, UX Design</p>
-                <p>The first version
-                        was launched on Sep. 2025
-                    and will continue to make improvements to enhance the user experience
+                <p>The first version was launched on Sep. 2025 and will continue to make improvements to enhance the user experience
                 </p>
             </div>
         </div>
@@ -85,8 +83,8 @@
         </div>
         <div class="intro_area">
             <h3 class="intro_title">Summary</h3>
-            <p>Subtitles are a core feature for video editors. This project focused on improving the overall efficiency and flexibility of the Subtitle Room through UX structure refinement and UI optimization.
-                Building on existing functionality, the redesign reorganized workflows and interface structure to enhance efficiency, usability, and visual consistency in subtitle editing.
+            <p>Subtitles are a core feature for video editors. This project focused on <span style="background-color: #CEE1FE">improving the overall efficiency and flexibility of the Subtitle Room</span> through UX structure refinement and UI optimization.
+                Building on existing functionality, <span style="background-color: #CEE1FE">the redesign reorganized workflows and interface structure to enhance efficiency, usability, and visual consistency</span> in subtitle editing.
             </p>
         </div>
         <!--<div class="intro_area">
@@ -121,11 +119,11 @@
                     <div style="margin-top: 48px;">
                         <h4 class="design_title">Strategy 1: Toolbar Redesign for Clearer Navigation Structure
                         </h4>
-                        <p>The toolbar was reserved for essential global actions, with secondary controls relocated to the side panel to clarify the primary navigation structure. And also combine Merge and Split into one function to reduce visual clutter.
+                        <p>The <span style="background-color: #CEE1FE">toolbar now focuses on core global actions</span>, while <span style="background-color: #CEE1FE">secondary controls are placed in the side panel for clearer navigation</span>. Merge and Split were combined into a single function to minimize visual clutter.
                         </p>
                         <h4 class="design_title">Strategy 2: Make Add Subtitle More Feasible
                         </h4>
-                        <p>In the previous version, subtitles could only be added at the playhead position.In the new design, subtitles can be added either at the playhead or after a selected subtitle, giving users more flexibility when adding subtitles.
+                        <p>In the previous version, subtitles could only be added at the playhead position. In the new design, <span style="background-color: #CEE1FE">subtitles can be added either at the playhead or after a selected subtitle</span>, giving users more flexibility when adding subtitles.
                         </p>
                     </div>
                     <div style="margin-top: 56px;">
@@ -135,7 +133,7 @@
                         <img class="tree_outcome" src="./image/PDR/Properties.png" alt=""
                             style="margin-bottom: 48px;">
                         <h4 class="design_title">Strategy 3: Separate Subtitle List and Properties Page for Better Organization</h4>
-                        <p>Dividing the subtitle management into two distinct pages: a Subtitle List page for overview and selection, and a Properties page for detailed editing and settings, enhancing organization and usability.
+                        <p><span style="background-color: #CEE1FE">Dividing the subtitle management into two distinct pages</span>: a <span style="background-color: #CEE1FE">Subtitle List page for overview and selection</span>, and a <span style="background-color: #CEE1FE">Properties page for detailed editing and settings</span>, enhancing organization and usability.
                         </p>
                     </div>
                 </div>
@@ -148,9 +146,9 @@
                 <div>
                     <div style="margin-top: 48px;">
                         <h4 class="design_title">Strategy: Separate Search and Replace to Clarify User Intent</h4>
-                        <p>In the previous design, after entering a search query, there was no clear visual cue indicating that users needed to click Find to initiate the search.
+                        <p><span style="background-color: #CEE1FE">In the previous design, after entering a search bar, there was no clear visual cue indicating that users needed to click Find & Replace icon button to trigger.</span>
                             Additionally, expanding the replace field caused unnecessary visual disruption in the interface.
-                            To improve clarity and usability, Search and Find & Replace were separated into two distinct functions, making the interaction more predictable and easier to understand.
+                            To improve clarity and usability, <span style="background-color: #CEE1FE">Search and Find & Replace were separated into two distinct functions</span>, making the interaction more predictable and easier to understand.
                         </p>
                     </div>
                 </div>
@@ -161,14 +159,14 @@
                 <p>
     This project highlighted the challenges of balancing user experience, technical constraints, and real-world trade-offs in a mature product. Through the Subtitle Room revamp, I gained several key learnings:<br><br>
 
-    <span style="font-weight: 800;">1. Improving UX within long-term technical constraints:</span>
+    <span style="font-weight: 800;">1. Designing within long-term technical constraints:</span>
     Many UX improvements were possible in theory, but the product’s long-standing technical debt limited how much could be changed at a foundational level. Instead of pushing ideal but unrealistic solutions, I worked closely with R&amp;D to evaluate feasibility and focus on changes that delivered meaningful UX impact within practical constraints.<br><br>
 
-    <span style="font-weight: 800;">2. Data-informed decisions still require validation:</span>
-    Although usage data showed that AI Speech-to-Text was far more common than manual subtitle creation, we assumed that once subtitles were automatically generated, the need to manually add subtitles at the playhead would be minimal. As a result, the playhead-based subtitle control was removed in the first release, which later led to unexpected user complaints. This reinforced that data can indicate dominant behaviors, but may overlook important edge cases, making post-launch feedback critical for validating assumptions.<br><br>
+    <span style="font-weight: 800;">2. When data doesn’t tell the full story:</span>
+    The data clearly showed that most users relied on AI Speech-to-Text, so we assumed manual subtitle edits at the playhead would be rare. Based on that assumption, we removed the control in the first release. After launch, however, we received unexpected complaints, which highlighted that data can guide decisions, but still needs validation to capture important edge cases.<br><br>
 
-    <span style="font-weight: 800;">3. Design evolves through iteration, not upfront certainty:</span>
-    There was no clear answer at the beginning. We explored several layouts, including tabs and edit-triggered panels, but they made important settings less visible. After multiple iterations and discussions with the team, we moved core subtitle list and properties controls to the left navigation. While this required a layout change, it resulted in a more intuitive and discoverable experience.
+    <span style="font-weight: 800;">3. Iteration leads to better design decisions</span>
+    There was no clear answer at the beginning. We explored several layouts, including tabs and edit-triggered panels, but they made important settings less visible. After multiple iterations and discussions with the team, we moved core subtitle list and properties controls to the left navigation. While this required a new layout in the App, it resulted in a more intuitive and discoverable experience.
 </p>
 
         </div>
@@ -177,6 +175,13 @@
             <div class="seperate_intro"></div>
             <p style="margin-bottom: -72px;">The next step will focus on building more advanced features and improving the overall user experience. Such as bilingual support or subtitle animation</p>
             <div class="project_switch">
+                <a class="project_nav prev_project" href="./Podcast Studio.html" style="color: #000000;">
+                    <span class="nav_label">← Podcast Studio </span>
+                </a>
+
+                <a class="project_nav next_project" href="./yahoo_app.html" style="color: #000000;">
+                    <span class="nav_label">Yahoo App →</span>
+                </a>
             </div>
         </div>
 
